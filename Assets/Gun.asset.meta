@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 17f1eae163303404e8f5d449cf0b3bfe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+=======
+<<<<<<<< Updated upstream:Assets/Scenes/Planet 2.unity.orig.meta
+guid: e329530122e62114ca5ec2bbdd8a3259
+DefaultImporter:
+========
+guid: 17f1eae163303404e8f5d449cf0b3bfe
+NativeFormatImporter:
+>>>>>>>> Stashed changes:Assets/Gun.asset.meta
+  externalObjects: {}
+  mainObjectFileID: 0
+>>>>>>> Stashed changes
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
