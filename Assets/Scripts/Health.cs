@@ -99,11 +99,11 @@ public class Health : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
         }
         
     }
