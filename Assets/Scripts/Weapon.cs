@@ -12,14 +12,9 @@ public class Weapon : MonoBehaviour
 
     private float timeBtwFire;
 
-
-    public WeaponManager weaponManager;
-    public Transform calculatePoint;
-
     private void Start()
     {
         //weaponManager = FindObjectOfType<WeaponManager>();
-        weaponManager = GetComponent<WeaponManager>();
     }
     void Update()
     {
