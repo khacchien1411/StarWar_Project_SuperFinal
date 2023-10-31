@@ -12,10 +12,6 @@ public class Weapon : MonoBehaviour
 
     private float timeBtwFire;
 
-    private void Start()
-    {
-        //weaponManager = FindObjectOfType<WeaponManager>();
-    }
     void Update()
     {
         RotateGun();

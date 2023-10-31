@@ -24,16 +24,32 @@ public class Score : MonoBehaviour
         fillBar.fillAmount = (float)ScoreManager.Instance.GetScore() / 100;
         if(ScoreManager.Instance.GetScore() == 10)
         {
-            Victoryobj.SetActive(true);
-            Time.timeScale = 0;
+            completeMap();
         }
     }
 
-    //void completeMap()
-    //{
-        
-    //}
-    
+    void completeMap()
+    {
+        Victoryobj.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public void continueMap()
+    {
+        Time.timeScale = 1; // Set the time scale to 1 (normal speed) before changing scenes.
+
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SceneManager.LoadScene(2);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 
 
 }

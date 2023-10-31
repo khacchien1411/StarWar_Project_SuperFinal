@@ -13,9 +13,9 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Planet 2.unity
-    guid: 49a16c81841341444a205911691a3e44
+    guid: c093fb457d17a1c4eb43ca1db0439957
   - enabled: 1
     path: Assets/Scenes/Planet 3.unity
-    guid: a267fc6ca7048c446b269996191cadb5
+    guid: 4eb775c5e89ae52439588126fce4ca4a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

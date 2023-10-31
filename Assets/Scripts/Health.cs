@@ -107,21 +107,5 @@ public class Health : MonoBehaviour
         }
         
     }
-    public void nextMap()
-    {
-        Time.timeScale = 1;
-        if (SceneManager.GetActiveScene().buildIndex == 1)
-        {
-            SceneManager.LoadScene(2);
-        }
-        else if (SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            SceneManager.LoadScene(3);
-        }
-        else if (SceneManager.GetActiveScene().buildIndex == 3)
-        {
-            SceneManager.LoadScene(0);
-        }
-        
-    }
+    
 }
