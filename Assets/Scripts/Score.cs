@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
     [SerializeField] protected TMP_Text scoreText;
     [SerializeField] protected Image fillBar;
     public GameObject Victoryobj;
+    public bool isDone;
 
     private void Update()
     {
@@ -22,8 +23,9 @@ public class Score : MonoBehaviour
     {
         scoreText.text = ScoreManager.Instance.GetScore() + " / 100";
         fillBar.fillAmount = (float)ScoreManager.Instance.GetScore() / 100;
-        if(ScoreManager.Instance.GetScore() == 10)
+        if(ScoreManager.Instance.GetScore() == 10 && !isDone)
         {
+            isDone = true;
             completeMap();
         }
     }
@@ -35,10 +37,11 @@ public class Score : MonoBehaviour
     }
     public void continueMap()
     {
-        Time.timeScale = 1; // Set the time scale to 1 (normal speed) before changing scenes.
+        Time.timeScale = 1;
 
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene(2);
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
