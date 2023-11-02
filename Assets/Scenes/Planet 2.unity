@@ -6126,6 +6126,7 @@ MonoBehaviour:
   scoreText: {fileID: 383966353}
   fillBar: {fileID: 2078196796}
   Victoryobj: {fileID: 729780141}
+  isDone: 0
 --- !u!1001 &1066430909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6569,9 +6570,9 @@ MonoBehaviour:
   moveInput: {x: 0, y: 0, z: 0}
   playerHealth: {fileID: 1090793491}
   weaponPrefabs:
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
+  - {fileID: 8321842727985354032, guid: e9e619fb71bef554eb1ed23cc20b0c81, type: 3}
+  - {fileID: 8321842727985354032, guid: e9e619fb71bef554eb1ed23cc20b0c81, type: 3}
+  - {fileID: 8321842727985354032, guid: e9e619fb71bef554eb1ed23cc20b0c81, type: 3}
   playerWeaponSlots:
   - {fileID: 1073094040}
   - {fileID: 443023039}
@@ -9268,7 +9269,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9a0e512b8e78e4c13b559bc480376751, type: 3}
-  m_Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+  m_Color: {r: 0.754717, g: 0.22356708, b: 0.22356708, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
