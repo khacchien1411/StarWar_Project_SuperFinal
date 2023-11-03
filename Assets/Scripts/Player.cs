@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && rollTime <= 0)
         {
+            AudioManager.Instance.PlayDashSFX();
             animator.SetBool("Roll", true);
             moveSpeed += rollBoost;
             rollTime = RollTime;
@@ -80,6 +81,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.name == "Heart")
         {
+            AudioManager.Instance.PlayLootSFX();
             playerHealth.Heal(10);
             Destroy(collision.gameObject);
         }
@@ -96,8 +98,9 @@ public class Player : MonoBehaviour
             
         else if (collision.gameObject.name == "Gun")
         {
-                // Check if the currentWeaponSlot is within the bounds of the arrays.
-                if (currentWeaponSlot < weaponPrefabs.Length && currentWeaponSlot < playerWeaponSlots.Length)
+            AudioManager.Instance.PlayLootSFX();
+            // Check if the currentWeaponSlot is within the bounds of the arrays.
+            if (currentWeaponSlot < weaponPrefabs.Length && currentWeaponSlot < playerWeaponSlots.Length)
                 {
                     // Instantiate the new weapon prefab.
                     GameObject newWeapon = Instantiate(weaponPrefabs[currentWeaponSlot], playerWeaponSlots[currentWeaponSlot]);

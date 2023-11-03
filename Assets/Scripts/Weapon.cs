@@ -18,6 +18,7 @@ public class Weapon : MonoBehaviour
         timeBtwFire -= Time.deltaTime;
         if (Input.GetMouseButton(0) && timeBtwFire < 0)
         {
+            AudioManager.Instance.PlayShootingSFX();
             FireBullet();
         }
     }
@@ -38,6 +39,7 @@ public class Weapon : MonoBehaviour
 
     void FireBullet()
     {
+        AudioManager.Instance.PlayShootingSFX();
         timeBtwFire = TimeBtwFire;
 
         GameObject bulletTmp = Instantiate(bullet, firePos.position, Quaternion.identity);
