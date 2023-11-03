@@ -3579,7 +3579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108f3d17ad299a74fac8dd75e7852768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 3017008840983562167, guid: d3c4468ec3fe07e40978e0f53c957101, type: 3}
+  enemy: {fileID: 9221695271748829152, guid: 671342a9f7636d54fa0933e1eae20551, type: 3}
   maxTime: 2
 --- !u!4 &602821912
 Transform:
@@ -5576,8 +5576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -214.296}
-  m_SizeDelta: {x: 284.214, y: 94.591}
+  m_AnchoredPosition: {x: -0.000005722, y: -222}
+  m_SizeDelta: {x: 341.725, y: 85.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883045368
 MonoBehaviour:
@@ -6782,9 +6782,9 @@ MonoBehaviour:
   moveInput: {x: 0, y: 0, z: 0}
   playerHealth: {fileID: 1090793491}
   weaponPrefabs:
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
-  - {fileID: 771239311986849074, guid: 07e8fb15caacea843b42ea5163176f03, type: 3}
+  - {fileID: 2750525531588344504, guid: c5dc562e6efa31845afafae686cc37c2, type: 3}
+  - {fileID: 2750525531588344504, guid: c5dc562e6efa31845afafae686cc37c2, type: 3}
+  - {fileID: 2750525531588344504, guid: c5dc562e6efa31845afafae686cc37c2, type: 3}
   playerWeaponSlots:
   - {fileID: 1073094040}
   - {fileID: 443023039}
@@ -7847,7 +7847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108f3d17ad299a74fac8dd75e7852768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 3017008840983562167, guid: d3c4468ec3fe07e40978e0f53c957101, type: 3}
+  enemy: {fileID: 9221695271748829152, guid: 671342a9f7636d54fa0933e1eae20551, type: 3}
   maxTime: 2
 --- !u!4 &1277062751
 Transform:
@@ -9648,7 +9648,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9a0e512b8e78e4c13b559bc480376751, type: 3}
-  m_Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+  m_Color: {r: 0.13122104, g: 0.6614754, b: 0.7169812, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -9843,7 +9843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Congratulation
 --- !u!222 &1702305564
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9881,7 +9881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108f3d17ad299a74fac8dd75e7852768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 3585648361068159240, guid: 300c4ab94d6df3542b8c95336670d7a4, type: 3}
+  enemy: {fileID: 9221695271748829152, guid: 671342a9f7636d54fa0933e1eae20551, type: 3}
   maxTime: 2
 --- !u!4 &1743355051
 Transform:
@@ -10450,7 +10450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108f3d17ad299a74fac8dd75e7852768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 3585648361068159240, guid: 300c4ab94d6df3542b8c95336670d7a4, type: 3}
+  enemy: {fileID: 9221695271748829152, guid: 671342a9f7636d54fa0933e1eae20551, type: 3}
   maxTime: 2
 --- !u!4 &1927561695
 Transform:

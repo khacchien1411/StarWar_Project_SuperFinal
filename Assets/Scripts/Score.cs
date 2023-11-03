@@ -23,11 +23,31 @@ public class Score : MonoBehaviour
     {
         scoreText.text = ScoreManager.Instance.GetScore() + " / 100";
         fillBar.fillAmount = (float)ScoreManager.Instance.GetScore() / 100;
-        if(ScoreManager.Instance.GetScore() == 10 && !isDone)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            isDone = true;
-            completeMap();
+            if (ScoreManager.Instance.GetScore() >= 30 && !isDone)
+            {
+                isDone = true;
+                completeMap();
+            }
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            if (ScoreManager.Instance.GetScore() >= 20 && !isDone)
+            {
+                isDone = true;
+                completeMap();
+            }
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            if (ScoreManager.Instance.GetScore() >= 30 && !isDone)
+            {
+                isDone = true;
+                completeMap();
+            }
+        }
+
     }
 
     void completeMap()
